@@ -1,0 +1,22 @@
+# Composer dependencies
+/vendor/
+
+# PHPStorm project files
+.idea/
+
+# PHPStorm specific files
+*.iml
+
+# Log files
+*.log
+
+# Cache directories
+/cache/
+/tmp/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
