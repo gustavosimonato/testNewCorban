@@ -21,27 +21,22 @@ git clone https://github.com/gustavosimonato/testNewCorban.git
 cd testNewCorban
 ```
 
-2. Crie o arquivo `.env` a partir do arquivo `.env-example`:
-```bash
-cp .env.example .env
-```
-
-3. Inicie os containers Docker:
+2. Inicie os containers Docker:
 ```bash
 docker-compose up -d --build
 ```
 
-4. Instale as dependências via Composer:
+3. Instale as dependências via Composer:
 ```bash
 docker-compose exec php composer install
 ```
 
-5. Execute o script SQL para criar as tabelas:
+4. Execute o script SQL para criar as tabelas:
 ```bash
 docker-compose exec -T mysql mysql -uapp_user -papp_password clients_db < schema.sql
 ```
 
-6. Verifique se a instalação está funcionando:
+5. Verifique se a instalação está funcionando:
 ```bash
 curl http://localhost:8000
 ```

@@ -1,11 +1,13 @@
 # Composer dependencies
 /vendor/
+composer.lock
 
-# PHPStorm project files
+# Configuração do IDE e sistema operacional
 /.idea/
-
-# PHPStorm specific files
-*.iml
+/.vscode/
+/nbproject/
+.DS_Store
+Thumbs.db
 
 # Log files
 *.log
@@ -16,7 +18,3 @@
 
 # Environment variables
 .env
-
-# OS generated files
-.DS_Store
-Thumbs.db
