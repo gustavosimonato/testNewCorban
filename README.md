@@ -38,5 +38,7 @@ docker-compose exec -T mysql mysql -uapp_user -papp_password clients_db < schema
 
 5. Verifique se a instalação está funcionando:
 ```bash
-curl http://localhost:8000
+curl http://localhost:8000/clients
 ```
+
+6. Importe o arquivo `NewCorban.postman_collection.json` no Postman.
