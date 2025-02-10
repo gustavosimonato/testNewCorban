@@ -2,7 +2,7 @@
 /vendor/
 
 # PHPStorm project files
-.idea/
+/.idea/
 
 # PHPStorm specific files
 *.iml
