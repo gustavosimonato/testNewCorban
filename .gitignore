@@ -15,6 +15,3 @@ Thumbs.db
 # Cache directories
 /cache/
 /tmp/
-
-# Environment variables
-.env
