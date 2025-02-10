@@ -17,7 +17,7 @@
 
 1. Clone o repositório:
 ```bash
-git clone [url-do-repositorio]
+git clone https://github.com/gustavosimonato/testNewCorban.git
 cd testNewCorban
 ```
 
